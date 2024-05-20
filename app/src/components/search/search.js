@@ -33,6 +33,7 @@ class Search extends React.Component {
                     <input className='type--input' type='radio' name='type' data-type='episode' onChange={this.handleFilter} checked={this.state.type==='episode'} /> <span className='episode'>Эпизоды</span>
                 </label>
             </div>
+            <div className='kol-vo_f'>найдено фильмов: 10</div>
         </div>
     }
 }
